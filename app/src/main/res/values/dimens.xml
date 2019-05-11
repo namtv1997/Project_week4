@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="common_4dp">4dp</dimen>
+    <dimen name="common_1">1</dimen>
+    <dimen name="common_8dp">8dp</dimen>
+    <dimen name="common_32dp">32dp</dimen>
+    <dimen name="common_50dp">50dp</dimen>
+    <dimen name="common_30dp">30dp</dimen>
+    <dimen name="common_30sp">30sp</dimen>
+    <dimen name="common_20sp">20sp</dimen>
+    <dimen name="common_45dp">45dp</dimen>
+    <dimen name="common_60dp">60dp</dimen>
+    <dimen name="common_16sp">16sp</dimen>
+    <dimen name="common_100sp">100sp</dimen>
+</resources>

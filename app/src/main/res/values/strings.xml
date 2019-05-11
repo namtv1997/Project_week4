@@ -1,0 +1,80 @@
+<resources>
+    <string name="app_name">Project_Week4</string>
+    <string name="tv_register_firstscreen">はじめる（無料）</string>
+    <string name="tv_fb_register_firstscreen">Facebookでログイン</string>
+    <string name="tv_login_register_firstscreen">
+        <u>アカウントをお持ちの方はコチラ</u>
+    </string>
+    <string name="tv_firstscreen">konichiwa</string>
+    <string name="tv_mail">メールアドレス</string>
+    <string name="tv_pass">パスワード</string>
+    <string name="tv_pass_hint">******</string>
+    <string name="tv_login">ログイン</string>
+    <string name="tv_forgot_pass">
+        <u>パスワードを忘れた方</u>
+    </string>
+    <string name="tv_email_empty">メールを入力してください。</string>
+    <string name="tv_email_wrong">メールが無効です。</string>
+    <string name="tv_email_doesnot_exit_on_server">入力したメールは存在していません</string>
+    <string name="tv_pass_wrong">パスワードが違います。</string>
+    <string name="tv_pass_empty">パスワードは空白にしないでください。</string>
+    <string name="user_name_register">ハンドルネーム ※必須</string>
+    <string name="user_name_register_hint">はなこ</string>
+    <string name="date_of_birth">生年月日（例:1986/09/18） ※必須</string>
+    <string name="number_child">子供の人数</string>
+    <string name="number_child_1">1人</string>
+    <string name="number_child_2">2人</string>
+    <string name="number_child_3">3人</string>
+    <string name="number_child_4">4人</string>
+    <string name="number_child_5">5人</string>
+    <string name="number_child_6">6人</string>
+    <string name="number_child_7">7人</string>
+    <string name="number_child_8">8人</string>
+    <string name="number_child_9">9人</string>
+    <string name="address">地域</string>
+    <string name="profile">プロフィール</string>
+    <string name="done">完了</string>
+    <string name="over_quantity">文字数が超過しました。○文字以内で入力ください</string>
+    <string name="null_text">名前は必須項目です。</string>
+    <string name="register_User_null_text_header">※必須項目が入力されていません※</string>
+    <string name="not_choose_date_of_birth">生年月日は必須項目です。</string>
+    <string name="choose_date_of_birth_at_future">生年月日が無効です。</string>
+    <string name="Enter_the_number_of_characters_too">文字数が超過しました。○文字以内で入力ください。</string>
+    <string name="hint_date_of_birth">1986/09/18</string>
+    <string name="hint_profile">x</string>
+    <string name="registerChild_nameOfChild">子供の名前（ハンドルネーム可）</string>
+    <string name="registerChild_gender">性別 ※必須</string>
+    <string name="registerChild_male">男の子</string>
+    <string name="registerChild_female">女の子</string>
+    <string name="registerChild_different">その他</string>
+    <string name="registerChild_diseases">診断名（複数選択可） ※必須</string>
+    <string name="registerChild_diseases_ADHD">ADHD</string>
+    <string name="registerChild_diseases_LD">LD（学習障害）</string>
+    <string name="registerChild_diseases_MR">MR（精神発達遅滞）</string>
+    <string name="registerChild_diseases_autism">自閉症（スペクトラム）</string>
+    <string name="registerChild_diseases_Chromosomal_abnormalities">染色体異常</string>
+    <string name="registerChild_diseases_null">診断名は必須項目です。</string>
+    <string name="registerChild_infomation_detail">詳細な情報</string>
+    <string name="registerChild_btn_save_continue">保存</string>
+    <string name="registerChild_information_child">人のこどものプロフィール</string>
+    <string name="registerChild_1">1</string>
+    <string name="main2_history">履歴</string>
+    <string name="main2_history_top">TOP</string>
+    <string name="main2_timeline">Timeline</string>
+    <string name="main2_category">Category</string>
+    <string name="main2_notice">Notice</string>
+    <string name="main2_mypage">MyPage</string>
+    <string name="main2_hi">おはようございます</string>
+    <string name="main2_time">いま:2018/05/05 18:18</string>
+    <string name="main2_infor">いつもお世話になっております営業課のアンです。
+        今後とも宜しくお願い致します
+    </string>
+
+    <string name="hello_notice_fragment">Hello notice fragment</string>
+    <string name="hello_category_fragment">Hello category fragment</string>
+    <string name="hello_mypage_fragment">Hello mypage fragment</string>
+    <string name="hello_timeline_fragment">Hello timeline fragment</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

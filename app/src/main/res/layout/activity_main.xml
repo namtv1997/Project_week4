@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/shape_background"
+        android:layout_height="match_parent"
+        tools:context="namhenry.com.vn.projectweek4.activity.MainActivity">
+    <android.support.v4.view.ViewPager
+            android:id="@+id/viewpage"
+            android:layout_weight="3.5"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+
+    </android.support.v4.view.ViewPager>
+
+    <me.relex.circleindicator.CircleIndicator
+            android:layout_gravity="center"
+            android:id="@+id/circleIndicator"
+            android:layout_weight="0.5"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp">
+    </me.relex.circleindicator.CircleIndicator>
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <Button
+                    android:id="@+id/btnRegisterUser"
+                    android:textColor="@color/tv_register_firstScreen"
+                    android:background="@drawable/shape_btn_register_firstscreen"
+                    android:text="@string/tv_register_firstscreen"
+                    style="@style/btn_firstScreen"/>
+            <Button
+                    android:textColor="@color/tv_fb_register_firstScreen"
+                    android:background="@drawable/shape_btn_fb_login_firstscreen"
+                    android:text="@string/tv_fb_register_firstscreen"
+                    style="@style/btn_firstScreen"/>
+        </LinearLayout>
+        <TextView
+                android:id="@+id/tvloginFirstScreen"
+                android:textColor="@color/background_register_firstScreen"
+                android:layout_gravity="center"
+                android:layout_marginTop="16dp"
+                android:text="@string/tv_login_register_firstscreen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+</LinearLayout>

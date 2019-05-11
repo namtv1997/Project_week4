@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string-array name="number_child">
+    <item>@string/number_child_1</item>
+    <item>@string/number_child_2</item>
+    <item>@string/number_child_3</item>
+    <item>@string/number_child_4</item>
+    <item>@string/number_child_5</item>
+    <item>@string/number_child_6</item>
+    <item>@string/number_child_7</item>
+    <item>@string/number_child_8</item>
+    <item>@string/number_child_9</item>
+</string-array>
+</resources>

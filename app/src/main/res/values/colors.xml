@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="background_register_firstScreen">#FD9283</color>
+    <color name="tv_register_firstScreen">#ffffff</color>
+    <color name="tv_fb_register_firstScreen">#4062A6</color>
+    <color name="tv_firstScreen">#FB9CA5</color>
+    <color name="tv_null_text">#DE433F</color>
+    <color name="background_expandable">#FFFCF4</color>
+    <color name="background_main2Screen">#fff1d5</color>
+</resources>

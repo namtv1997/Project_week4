@@ -1,0 +1,110 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="btn_firstScreen">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:layout_margin">8dp</item>
+    </style>
+    <style name="btn_checkbox_register_child">
+        <item name="android:layout_height">@dimen/common_32dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_margin">@dimen/common_4dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@drawable/shape_text_color_register_child</item>
+        <item name="android:background">@drawable/shape_btn_register_child</item>
+        <item name="android:button">@android:color/transparent</item>
+    </style>
+    <style name="btn_login">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/shape_btn_register_firstscreen</item>
+        <item name="android:layout_width">180dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textColor">@color/tv_register_firstScreen</item>
+        <item name="android:layout_marginTop">@dimen/common_50dp</item>
+    </style>
+    <style name="btn_save_and_next">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/shape_btn_register_firstscreen</item>
+        <item name="android:layout_width">180dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textColor">@color/tv_register_firstScreen</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:layout_marginBottom">@dimen/common_32dp</item>
+    </style>
+    <style name="btn_register_child">
+        <item name="android:layout_height">@dimen/common_32dp</item>
+        <item name="android:background">@drawable/shape_btn_register_child</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_margin">@dimen/common_8dp</item>
+        <item name="android:button">@android:color/transparent</item>
+        <item name="android:textColor">@drawable/shape_text_color_register_child</item>
+    </style>
+    <style name="edt_login">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_margin">8dp</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:paddingLeft">@dimen/common_8dp</item>
+        <item name="android:background">@drawable/shape_edittext_login</item>
+    </style>
+    <style name="edt_profile_register_user">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_margin">8dp</item>
+        <item name="android:paddingLeft">@dimen/common_8dp</item>
+        <item name="android:lines">4</item>
+        <item name="android:gravity">top</item>
+        <item name="android:background">@drawable/shape_edittext_login</item>
+    </style>
+    <style name="tv_login">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/background_register_firstScreen</item>
+        <item name="android:layout_marginLeft">14dp</item>
+    </style>
+    <style name="tv_null_text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/tv_null_text</item>
+        <item name="android:layout_marginLeft">14dp</item>
+    </style>
+    <style name="tv_register_child">
+        <item name="android:textSize">20sp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/background_register_firstScreen</item>
+    </style>
+    <style name="img_expandable">
+        <item name="android:layout_height">20dp</item>
+        <item name="android:layout_width">20dp</item>
+    </style>
+    <style name="tv_infor_item_fragment_main2">
+        <item name="android:text">@string/main2_infor</item>
+        <item name="android:textSize">@dimen/common_16sp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+    <style name="tv_title_item_fragment_main2">
+        <item name="android:text">@string/main2_hi</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/common_20sp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+</resources>

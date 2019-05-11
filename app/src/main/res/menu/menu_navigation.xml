@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+            app:showAsAction="always"
+            android:id="@+id/navigation_category"
+            android:icon="@drawable/ic_tab_top_selected"
+            android:title="@string/main2_category"/>
+
+    <item
+            app:showAsAction="always"
+            
+            android:id="@+id/navigation_timeline"
+            android:icon="@drawable/ic_tab_timeline_not_selected"
+            android:title="@string/main2_timeline"/>
+
+    <item
+            app:showAsAction="always"
+            android:id="@+id/navigation_notice"
+            android:icon="@drawable/ic_tab_notice_not_selected"
+            android:title="@string/main2_notice"/>
+    <item
+            app:showAsAction="always"
+
+            android:id="@+id/navigation_mypage"
+            android:icon="@drawable/ic_tab_my_page_not_selected"
+            android:title="@string/main2_mypage"/>
+</menu>
